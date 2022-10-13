@@ -6,17 +6,17 @@ import { CryptoState } from "../Context";
 
 const Header = () => {
 
-  const theme = createTheme({ // theme for CoinMaster title
-    typography: {
-      fontFamily: [
-        'Montserrat',
+  // const theme = createTheme({ // theme for CoinMaster title
+  //   typography: {
+  //     fontFamily: [
+  //       'Montserrat',
         
-      ].join(','),
-      h5: {
-        fontWeight: 800,
-      }
-    },    
-  });
+  //     ].join(','),
+  //     h5: {
+  //       fontWeight: 800,
+  //     }
+  //   },    
+  // });
 
   const darkTheme = createTheme({
     palette: {
@@ -39,14 +39,17 @@ const Header = () => {
           <Container>
 
             <Toolbar>
-              <ThemeProvider theme={theme}>
-
+            
                 <Typography variant='h5' onClick={titleClickHandler}
-                          className={classes.header__title}>
+                            className={classes.header__title}
+                            sx={{
+                              fontFamily: 'Montserrat',
+                              fontWeight: 'bold',
+                              fontSize: 30,
+                            }}>
                   CoinMasters 
                 </Typography>
-              </ThemeProvider>
-
+              
               <Select variant='outlined' sx={{
                 width: 100,
                 height: 40,

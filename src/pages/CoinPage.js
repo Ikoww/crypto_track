@@ -1,6 +1,10 @@
+
+
 const CoinPage = () => {
     return (
-        <div>Coin Page</div>
+        <div>
+            elo elo 329
+        </div>
     )
 };
 
