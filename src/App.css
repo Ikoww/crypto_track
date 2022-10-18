@@ -5,10 +5,19 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* cursor: pointer; */
   
 }
 
 a {
   text-decoration: none;
   color: gold;
+}
+
+.container__main {
+  
+     background: #14161a;
+     color: white;
+     min-height: 100vh;
+  
 }

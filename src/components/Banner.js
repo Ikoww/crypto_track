@@ -5,7 +5,6 @@ import Carousel from "./Carousel";
 
 const Banner = () => {
 
-   
 
     return (
         <div className={classes.banner}>

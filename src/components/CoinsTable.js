@@ -51,7 +51,7 @@ useEffect(() => {
           setIsLoading(false);
           setCoinsList(data);
        };
-
+     
      fetchCoins()  
   }, [currency]);
 

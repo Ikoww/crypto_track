@@ -50,12 +50,7 @@ const Header = () => {
                   CoinMasters 
                 </Typography>
               
-              <Select variant='outlined' sx={{
-                width: 100,
-                height: 40,
-                marginLeft: 15,
-                
-              }}
+              <Select variant='outlined' className={classes.header__select}
               value={currency}
               onChange={(e) => setCurrency(e.target.value)}>
                 <MenuItem value={'USD'}>USD</MenuItem>

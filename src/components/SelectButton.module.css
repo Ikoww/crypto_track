@@ -1,0 +1,27 @@
+
+
+.btn__select {
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 0.7rem 1.1rem;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    width: 22%;
+    margin: 5px
+}
+
+.btn__select:hover {
+    background-color: gold;
+    color: black;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .btn__select {
+        padding: 0.2rem 0.5rem;
+        font-size: 11px;
+    }
+}
